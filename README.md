@@ -1,8 +1,8 @@
-SIH26144-Team-SparkX
-# SparkX-InfraSense  
+SIH26144-Team-ApeX
+# ApeX-InfraSense  
 ## High-Sensitivity Differential Microbarometer for Infrasound Detection
 
-> **Smart India Hackathon Project — Team SparkX**  
+> **Smart India Hackathon Project — Team ApeX**  
 > A low-noise, STM32-based atmospheric microbarometer for detecting and analyzing infrasonic pressure fluctuations in the **0.01–20 Hz** frequency range.
 
 ![Project Status](https://img.shields.io/badge/Status-In%20Development-orange)
@@ -559,4 +559,4 @@ For open-hardware files such as PCB, schematics and mechanical designs, the proj
 ---
 
 
-> **SparkX-InfraSense aims to transform a low-cost microbarometer into an intelligent, self-validating, field-deployable infrasound sensing platform for atmospheric research, disaster monitoring, industrial safety and long-range event detection.**
+> **ApeX-InfraSense aims to transform a low-cost microbarometer into an intelligent, self-validating, field-deployable infrasound sensing platform for atmospheric research, disaster monitoring, industrial safety and long-range event detection.**
