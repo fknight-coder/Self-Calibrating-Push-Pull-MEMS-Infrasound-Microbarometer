@@ -568,22 +568,7 @@ The dashboard displays:
 - [ ] Demonstrate force-feedback self-calibration prototype
 - [ ] Deploy GPS-synchronized multi-node sensor array
 
----
 
-## Data Policy
-
-Small representative waveform samples, calibration files, plots, and screenshots are stored in this repository.
-
-Large raw waveform files should not be committed directly to Git.
-
-```text
-Small CSV / JSON / screenshots → GitHub repository
-Large raw waveform files       → GitHub Releases / Git LFS / cloud storage
-Large videos                   → YouTube or external demo storage
-Gerber ZIP releases            → GitHub Releases
-```
-
----
 
 ## Safety and Limitations
 
@@ -608,20 +593,7 @@ Gerber ZIP releases            → GitHub Releases
 - Fusion with seismic, weather, lightning, gas and satellite observations
 - Multi-hazard early-warning and environmental-monitoring platform
 
----
 
-## Team Kestrel
-
-| Role | Team Member | Responsibility |
-|---|---|---|
-| Team Lead | Add Name | Project coordination and SIH presentation |
-| Hardware Lead | Add Name | Sensor interface, analog front end, PCB and power design |
-| Embedded Lead | Add Name | STM32 firmware, ADC acquisition, GPS, SD logging |
-| Software Lead | Add Name | Dashboard, visualization and data analysis |
-| Mechanical Lead | Add Name | Backing chamber, rosette, enclosure and calibration chamber |
-| Research/Test Lead | Add Name | Calibration, noise testing, stability analysis and documentation |
-
----
 
 ## References
 
