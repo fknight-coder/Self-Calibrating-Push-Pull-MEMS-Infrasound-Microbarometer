@@ -1,8 +1,8 @@
 # Test Plan
 
-## SparkX-InfraSense Verification and Validation Plan
+## ApeX-InfraSense Verification and Validation Plan
 
-This document defines the test plan for the SparkX-InfraSense infrasound microbarometer.
+This document defines the test plan for the ApeX-InfraSense infrasound microbarometer.
 
 The objective is to verify that the complete system performs as an infrasound sensor, not only as an electronic circuit.
 
