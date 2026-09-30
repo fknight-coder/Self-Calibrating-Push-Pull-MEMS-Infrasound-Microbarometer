@@ -29,11 +29,11 @@ Infrasound consists of low-frequency atmospheric pressure waves below the lower 
 The main engineering challenge is that useful infrasonic signals may be extremely small compared with normal atmospheric pressure and environmental noise.
 
 This project addresses the design and development of a high-sensitivity atmospheric microbarometer capable of measuring pressure fluctuations from:
-$$
+
 \[
 0.01Hz to 20 Hz
 \]
-$$
+
 while reducing the effects of:
 
 - Slow weather-pressure drift
@@ -139,9 +139,9 @@ while reducing the effects of:
 
 The sensor measures the difference between atmospheric pressure at the inlet and a filtered reference pressure:
 
-\[
+$$
 \Delta P = P_1 - P_2
-\]
+$$
 
 Where:
 
