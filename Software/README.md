@@ -1,6 +1,6 @@
 # Software
 
-## Kestrel-InfraSense Dashboard and Analysis Software
+## ApeX-InfraSense Dashboard and Analysis Software
 
 This folder contains the laptop-side software for:
 
