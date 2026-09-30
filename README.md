@@ -1,8 +1,8 @@
-SIH26058-Team-Kestrel
-# Kestrel-InfraSense  
+SIH26144-Team-SparkX
+# SparkX-InfraSense  
 ## High-Sensitivity Differential Microbarometer for Infrasound Detection
 
-> **Smart India Hackathon Project — Team Kestrel**  
+> **Smart India Hackathon Project — Team SparkX**  
 > A low-noise, STM32-based atmospheric microbarometer for detecting and analyzing infrasonic pressure fluctuations in the **0.01–20 Hz** frequency range.
 
 ![Project Status](https://img.shields.io/badge/Status-In%20Development-orange)
@@ -146,8 +146,8 @@ $$
 Where:
 
 - $$(P_1\)$$ = wind-filtered atmospheric pressure
-- \(P_2\) = backing-chamber reference pressure
-- \(\Delta P\) = desired infrasound pressure waveform
+- $$(P_2\)$$ = backing-chamber reference pressure
+- $$(\Delta P\)$$ = desired infrasound pressure waveform
 
 ### Pneumatic high-pass behavior
 
@@ -163,20 +163,20 @@ P1 changes slowly → P2 equalizes through capillary → drift is removed
 
 The approximate pneumatic cutoff is modeled as:
 
-\[
+$$
 f_c = \frac{1}{2\pi RC}
-\]
+$$
 
 where:
 
-- \(R\) = pneumatic resistance of the capillary
-- \(C\) = pneumatic compliance of the backing volume
+- $$(R\)$$ = pneumatic resistance of the capillary
+- $$(C\)$$ = pneumatic compliance of the backing volume
 
 The design target is:
 
-\[
+$$
 f_c \approx 0.01\ \text{Hz}
-\]
+$$
 
 ---
 
@@ -188,9 +188,9 @@ Instead of a fixed pneumatic filter, the system uses interchangeable capillary c
 
 This enables experimental tuning of the low-frequency response near:
 
-\[
+$$
 0.01\ \text{Hz}
-\]
+$$
 
 ### 2. Adaptive wind-noise validation
 
@@ -249,15 +249,15 @@ Pressure → Diaphragm displacement → Position error
          → Feedback current → Pressure estimate
 ```
 
-\[
+$$
 \Delta P = \frac{K_f \times I_{feedback}}{A}
-\]
+$$
 
 Where:
 
-- \(K_f\) = actuator force constant
-- \(I_{feedback}\) = feedback current
-- \(A\) = effective diaphragm/bellows area
+- $$(K_f\)$$ = actuator force constant
+- $$(I_{feedback}\)$$ = feedback current
+- $$(A\)$$ = effective diaphragm/bellows area
 
 This can improve linearity, dynamic range, self-calibration capability, and health monitoring.
 
@@ -489,21 +489,21 @@ Sealed Calibration Chamber
 
 ### Core equations
 
-\[
+$$
 Sensitivity(f)=\frac{V_{out}(f)}{P_{reference}(f)}
-\]
+$$
 
-\[
+$$
 P_{RMS}=
 \sqrt{
 \frac{1}{N}\sum_{n=1}^{N}P_n^2
 }
-\]
+$$
 
-\[
+$$
 Drift=
 \frac{P_{offset,end}-P_{offset,start}}{\Delta t}
-\]
+$$
 
 ---
 
@@ -645,4 +645,4 @@ For open-hardware files such as PCB, schematics and mechanical designs, the proj
 ---
 
 
-> **Kestrel-InfraSense aims to transform a low-cost microbarometer into an intelligent, self-validating, field-deployable infrasound sensing platform for atmospheric research, disaster monitoring, industrial safety and long-range event detection.**
+> **SparkX-InfraSense aims to transform a low-cost microbarometer into an intelligent, self-validating, field-deployable infrasound sensing platform for atmospheric research, disaster monitoring, industrial safety and long-range event detection.**
