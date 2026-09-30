@@ -1,0 +1,84 @@
+{
+  "project_name": "SparkX-InfraSense",
+  "adc_model": "ADS131M04",
+  "adc_type": "24-bit delta-sigma simultaneous-sampling ADC",
+  "adc_resolution_bits": 24,
+  "adc_channels": 4,
+  "interface": {
+    "type": "SPI",
+    "use_drdy_interrupt": true,
+    "use_dma": true,
+    "chip_select_control": "GPIO or hardware NSS",
+    "reset_control": "GPIO"
+  },
+  "sampling": {
+    "internal_sample_rate_sps": 250,
+    "stored_sample_rate_sps": 100,
+    "target_signal_band_hz": {
+      "minimum": 0.01,
+      "maximum": 20.0
+    },
+    "nyquist_frequency_hz": 50.0
+  },
+  "analog_filter": {
+    "type": "Second or fourth order active low-pass filter",
+    "target_cutoff_hz": 25.0,
+    "purpose": "Anti-aliasing and high-frequency noise reduction"
+  },
+  "channel_map": {
+    "channel_0": {
+      "name": "main_pressure",
+      "signal": "Primary differential infrasound pressure",
+      "enabled": true
+    },
+    "channel_1": {
+      "name": "reference_pressure",
+      "signal": "Secondary pressure sensor or reference channel",
+      "enabled": true
+    },
+    "channel_2": {
+      "name": "vibration_reference",
+      "signal": "Accelerometer or vibration reference",
+      "enabled": true
+    },
+    "channel_3": {
+      "name": "calibration_diagnostic",
+      "signal": "Calibration signal, current monitor or diagnostic input",
+      "enabled": true
+    }
+  },
+  "input_configuration": {
+    "input_type": "Differential",
+    "pga_gain": 1,
+    "reference_voltage_v": 2.5,
+    "input_protection_resistor_ohm": 100,
+    "input_bias_resistor_ohm": 1000000
+  },
+  "data_format": {
+    "raw_adc_storage_type": "Signed 32-bit integer",
+    "processed_pressure_unit": "Pascal",
+    "raw_file_format": "Binary DAT",
+    "processed_file_format": "CSV",
+    "future_waveform_format": "MiniSEED"
+  },
+  "health_monitoring": {
+    "monitor_adc_communication": true,
+    "monitor_drdy_timeout": true,
+    "monitor_saturation": true,
+    "monitor_crc": true,
+    "record_error_flags": true
+  },
+  "calibration": {
+    "offset_enabled": true,
+    "sensitivity_enabled": true,
+    "temperature_compensation_enabled": true,
+    "calibration_coefficient_file": "data/metadata/calibration_coefficients.json"
+  },
+  "firmware": {
+    "controller": "STM32H743",
+    "acquisition_method": "SPI plus DRDY interrupt plus DMA",
+    "buffer_type": "Circular double buffer",
+    "rtos": "FreeRTOS",
+    "dsp_library": "CMSIS-DSP"
+  }
+}
