@@ -27,7 +27,7 @@ Item_No,Category,Subsystem,Component,Recommended_Part_Number_or_Specification,Ma
 26,Analog Front End,Input Protection Resistor,Precision resistor,100 ohm 0.1% metal-film,Generic precision resistor,8,Required,ADC input protection and isolation,TBD,Place near ADC input
 27,Analog Front End,Input Bias Resistor,High-value resistor,1 Mohm 0.1% metal-film,Generic precision resistor,4,Required,Input bias return path,TBD,Confirm based on final ADC input configuration
 28,Analog Front End,Filter Capacitor,Stable capacitor,680 nF film or C0G/NP0 where available,Generic,8,Required,Create approximately 20–25 Hz analog filtering,TBD,Verify actual cutoff with selected resistor values
-29,Analog Front End,Decoupling Capacitor,100 nF X7R capacitor,0603/0805 SMD or through-hole,Generic,20,Required,IC local supply decoupling,TBD,Place close to supply pins
+29,Analog Front End,Decoupling Capacitor,100 nF X7R capacitor,0603/0805 SMD or through-hole Generic,20,Required,IC local supply decoupling,TBD,Place close to supply pins
 30,Analog Front End,Bulk Capacitor,10 uF to 22 uF low ESR capacitor,Electrolytic/tantalum/ceramic,10,Required,Power rail stabilization,TBD,Place at regulator input/output and board entry
 31,Analog Front End,Shielded Cable,Shielded twisted-pair cable,2-core shielded cable,Generic,2 m,Required,Connect remote pressure sensor to analog board,TBD,Connect shield at one controlled grounding point
 32,Analog Front End,Test Points,PCB test points or pin headers,2.54 mm or SMT test points,Generic,1 set,Required,Measure sensor output filter output reference and ADC input,TBD,Include on custom board
