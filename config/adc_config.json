@@ -1,5 +1,5 @@
 {
-  "project_name": "SparkX-InfraSense",
+  "project_name": "ApeX-InfraSense",
   "adc_model": "ADS131M04",
   "adc_type": "24-bit delta-sigma simultaneous-sampling ADC",
   "adc_resolution_bits": 24,
