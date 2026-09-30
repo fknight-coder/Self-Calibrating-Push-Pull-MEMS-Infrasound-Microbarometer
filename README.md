@@ -144,11 +144,11 @@ $$
 $$
 
 Where:
-$$
-- \(P_1\) = wind-filtered atmospheric pressure
+
+- $$(P_1\)$$ = wind-filtered atmospheric pressure
 - \(P_2\) = backing-chamber reference pressure
 - \(\Delta P\) = desired infrasound pressure waveform
-$$
+
 ### Pneumatic high-pass behavior
 
 The backing chamber and capillary create a pneumatic high-pass response:
