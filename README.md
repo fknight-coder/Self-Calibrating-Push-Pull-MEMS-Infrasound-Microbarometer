@@ -31,7 +31,7 @@ The main engineering challenge is that useful infrasonic signals may be extremel
 This project addresses the design and development of a high-sensitivity atmospheric microbarometer capable of measuring pressure fluctuations from:
 
 \[
-0.01\ \text{Hz to}\ 20\ \text{Hz}
+0.01Hz to 20 Hz
 \]
 
 while reducing the effects of:
