@@ -49,7 +49,7 @@ while reducing the effects of:
 
 ## Proposed Solution
 
-**Kestrel-InfraSense** is a differential infrasound sensor platform built around:
+**ApeX-InfraSense** is a differential infrasound sensor platform built around:
 
 - A low-range differential MEMS pressure sensor or bellows-based transducer
 - Pneumatic long-period equalization using a backing chamber and capillary path
@@ -314,7 +314,7 @@ This can improve linearity, dynamic range, self-calibration capability, and heal
 ## Repository Structure
 
 ```text
-SIH26058-Team-Kestrel/
+SIH26058-Team-ApeX/
 │
 ├── README.md
 ├── LICENSE
@@ -396,7 +396,7 @@ Speaker / Piston / Motorized Syringe
 Sealed Calibration Chamber
       │
       ├── Reference Pressure Sensor
-      └── Kestrel-InfraSense Sensor Under Test
+      └── ApeX-InfraSense Sensor Under Test
 ```
 
 ### Frequency-response test points
@@ -474,7 +474,7 @@ The dashboard displays:
 
 ## SIH Evaluation Mapping
 
-| Evaluation Requirement | Kestrel-InfraSense Evidence |
+| Evaluation Requirement | ApeX-InfraSense Evidence |
 |---|---|
 | Detection of low-frequency signals | Live waveform from 0.01–20 Hz calibration source |
 | Laboratory frequency characterization | Bode magnitude and phase-response plots |
