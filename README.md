@@ -318,86 +318,28 @@ SIH26058-Team-Kestrel/
 │
 ├── README.md
 ├── LICENSE
-├── CONTRIBUTING.md
-├── .gitignore
 │
 ├── docs/
-│   ├── problem-statement.md
 │   ├── system-architecture.md
-│   ├── technical-flow.md
 │   ├── innovation-and-usp.md
 │   ├── calibration-methodology.md
 │   ├── test-plan.md
-│   ├── references.md
-│   ├── diagrams/
-│   ├── images/
-│   └── presentations/
+│   └── design_decision.md
 │
 ├── hardware/
 │   ├── bom/
-│   ├── mechanical/
-│   │   ├── backing-chamber/
-│   │   ├── capillary-cartridges/
-│   │   ├── wind-rosette/
-│   │   ├── calibration-chamber/
-│   │   └── enclosure/
-│   │
-│   ├── electronics/
-│   │   ├── analog-front-end/
-│   │   ├── adc-board/
-│   │   ├── stm32-controller/
-│   │   ├── power-supply/
-│   │   └── force-feedback/
-│   │
-│   ├── kicad/
-│   ├── schematics/
-│   └── datasheets/
 │
 ├── firmware/
-│   ├── stm32h743/
-│   ├── libraries/
-│   └── tools/
+│   └── README.md
 │
 ├── software/
-│   ├── dashboard/
-│   ├── analysis/
-│   ├── simulation/
-│   └── notebooks/
+│   └── README.md
 │
-├── data/
-│   ├── sample_data/
-│   ├── processed_data/
-│   └── metadata/
-│
-├── tests/
-│   ├── hardware_tests/
-│   ├── calibration_tests/
-│   ├── stability_tests/
-│   └── results/
 │
 ├── config/
 │   ├── adc_config.json
-│   ├── sensor_config.json
-│   ├── calibration_config.json
-│   └── event_detection_config.json
-│
-├── scripts/
-│   ├── setup_environment.sh
-│   ├── run_dashboard.sh
-│   ├── convert_binary_to_csv.py
-│   ├── convert_binary_to_mseed.py
-│   └── generate_test_signal.py
-│
-├── .github/
-│   ├── workflows/
-│   ├── ISSUE_TEMPLATE/
-│   └── pull_request_template.md
-│
-└── assets/
-    ├── logo/
-    ├── screenshots/
-    ├── demo-gifs/
-    └── posters/
+│   └── sensor_config.json
+
 ```
 
 ---
