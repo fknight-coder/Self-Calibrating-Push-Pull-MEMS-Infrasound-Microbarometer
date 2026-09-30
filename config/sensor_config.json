@@ -1,0 +1,93 @@
+{
+  "project_name": "SparkX-InfraSense",
+  "project_version": "v1.0-prototype",
+  "sensor_id": "KIS-001",
+  "sensor_type": "Low-range differential MEMS pressure sensor",
+  "measurement_principle": "Differential pressure measurement",
+  "pressure_ports": {
+    "port_p1": "Wind-filtered atmospheric pressure input",
+    "port_p2": "Backing chamber reference pressure"
+  },
+  "pressure_range_pa": {
+    "minimum": -250.0,
+    "maximum": 250.0
+  },
+  "target_frequency_range_hz": {
+    "minimum": 0.01,
+    "maximum": 20.0
+  },
+  "target_sensitivity_mv_per_pa": 20.0,
+  "target_pressure_resolution_pa": 0.05,
+  "target_dynamic_range_db": 100,
+  "pneumatic_filter": {
+    "type": "Backing chamber plus interchangeable capillary",
+    "target_cutoff_frequency_hz": 0.01,
+    "backing_chamber_volume_cm3": 3.0,
+    "capillary_cartridge_id": "B",
+    "capillary_inner_diameter_um": 75.0,
+    "capillary_length_mm": 50.0
+  },
+  "wind_noise_reduction": {
+    "type": "Multi-arm pipe rosette",
+    "number_of_arms": 4,
+    "arm_length_m": 1.5,
+    "pipe_material": "PE/PTFE/PU tubing",
+    "inlet_protection": [
+      "Fine mesh",
+      "PTFE hydrophobic membrane",
+      "Moisture trap"
+    ]
+  },
+  "temperature_compensation": {
+    "enabled": true,
+    "sensor_board_temperature_sensor": "TMP117_1",
+    "backing_chamber_temperature_sensor": "TMP117_2",
+    "offset_model": "Quadratic polynomial",
+    "sensitivity_model": "Temperature-dependent lookup or polynomial",
+    "coefficient_file": "data/metadata/calibration_coefficients.json"
+  },
+  "environmental_sensors": {
+    "humidity_sensor": "SHT45",
+    "absolute_pressure_sensor": "BMP390",
+    "accelerometer": "ADXL355",
+    "wind_sensor": "Cup anemometer",
+    "power_monitor": "INA226"
+  },
+  "force_feedback": {
+    "enabled": false,
+    "status": "Future research module",
+    "concept": "Position sensing plus PID controlled voice-coil restoring force"
+  },
+  "calibration": {
+    "reference_sensor_required": true,
+    "frequency_points_hz": [
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1.0,
+      2.0,
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "pressure_amplitudes_pa": [
+      0.01,
+      0.05,
+      0.1,
+      0.5,
+      1.0,
+      5.0,
+      10.0
+    ]
+  },
+  "data_policy": {
+    "store_raw_data": true,
+    "store_processed_data": true,
+    "store_environmental_metadata": true,
+    "store_calibration_version": true
+  }
+}
