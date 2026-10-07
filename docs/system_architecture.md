@@ -1,8 +1,8 @@
 # System Architecture
 
-## ApeX-InfraSense: High-Sensitivity Infrasound Microbarometer
+## ZSPARK-InfraSense: High-Sensitivity Infrasound Microbarometer
 
-This document describes the complete system architecture of the ApeX-InfraSense project.
+This document describes the complete system architecture of the ZSPARK-InfraSense project.
 
 The proposed system is a differential atmospheric microbarometer designed to detect and record infrasonic pressure fluctuations in the frequency range:
 
