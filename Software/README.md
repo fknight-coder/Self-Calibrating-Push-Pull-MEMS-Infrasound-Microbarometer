@@ -1,6 +1,6 @@
 # Software
 
-## ApeX-InfraSense Dashboard and Analysis Software
+## ZSPARK-InfraSense Dashboard and Analysis Software
 
 This folder contains the laptop-side software for:
 
