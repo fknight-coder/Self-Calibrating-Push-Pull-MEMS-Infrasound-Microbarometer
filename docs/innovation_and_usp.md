@@ -1,8 +1,8 @@
 # Innovation and Unique Selling Proposition
 
-## ApeX-InfraSense: What Makes Our Solution Different
+## ZSPARK-InfraSense: What Makes Our Solution Different
 
-ApeX-InfraSense is not designed as only a basic pressure sensor or a normal digital barometer.
+ZSPARK-InfraSense is not designed as only a basic pressure sensor or a normal digital barometer.
 
 It is designed as a complete intelligent infrasound-monitoring platform that combines:
 
@@ -121,7 +121,7 @@ Where:
 
 ### Innovation
 
-Instead of a permanently fixed capillary, ApeX-InfraSense uses interchangeable capillary cartridges.
+Instead of a permanently fixed capillary, ZSPARK-InfraSense uses interchangeable capillary cartridges.
 
 ```text
 Capillary A → Higher cutoff response
@@ -145,7 +145,7 @@ near the 0.01 Hz target instead of relying only on theoretical calculations.
 
 Wind turbulence is one of the major difficulties in outdoor infrasound measurement.
 
-ApeX-InfraSense uses a multi-arm pipe rosette.
+ZSPARK-InfraSense uses a multi-arm pipe rosette.
 
 ```text
           Protected Inlet
