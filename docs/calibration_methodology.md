@@ -1,8 +1,8 @@
 # Calibration Methodology
 
-## ApeX-InfraSense Microbarometer Calibration Plan
+## ZSPARK-InfraSense Microbarometer Calibration Plan
 
-This document defines the calibration methodology for the ApeX-InfraSense high-sensitivity infrasound microbarometer.
+This document defines the calibration methodology for the ZSPARK-InfraSense high-sensitivity infrasound microbarometer.
 
 The calibration process verifies that the system can accurately measure atmospheric pressure fluctuations within the target range:
 
@@ -56,7 +56,7 @@ Low-Frequency Pressure Actuator
 Rigid Sealed Calibration Chamber
            │
            ├── Reference Pressure Sensor
-           ├── ApeX-InfraSense Sensor Under Test
+           ├── ZSPARK-InfraSense Sensor Under Test
            └── Chamber Temperature Sensor
 ```
 
@@ -66,7 +66,7 @@ Rigid Sealed Calibration Chamber
 |---|---|
 | Rigid sealed calibration chamber | Produces controlled pressure environment |
 | Reference pressure sensor | Measures known pressure waveform |
-| ApeX sensor under test | Sensor being calibrated |
+| ZSPARK sensor under test | Sensor being calibrated |
 | Speaker + amplifier | Generates pressure waves mainly above 0.5 Hz |
 | Motorized syringe/piston | Generates stable pressure waves below 1 Hz |
 | Function generator / laptop | Generates sine, sweep and step signals |
@@ -266,14 +266,14 @@ Useful response from approximately 0.01 Hz to 20 Hz.
 
 ### Objective
 
-Measure phase delay between the reference sensor and the ApeX sensor.
+Measure phase delay between the reference sensor and the ZSPARK sensor.
 
 ### Procedure
 
 ```text
 1. Apply sinusoidal pressure at each frequency.
 2. Record reference waveform.
-3. Record ApeX waveform.
+3. Record ZSPARK waveform.
 4. Measure time delay between matching waveform peaks.
 5. Convert time delay to phase difference.
 ```
