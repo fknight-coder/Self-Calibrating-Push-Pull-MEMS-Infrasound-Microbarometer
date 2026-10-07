@@ -1,5 +1,5 @@
 {
-  "project_name": "ApeX-InfraSense",
+  "project_name": "ZSPARK-InfraSense",
   "project_version": "v1.0-prototype",
   "sensor_id": "KIS-001",
   "sensor_type": "Low-range differential MEMS pressure sensor",
