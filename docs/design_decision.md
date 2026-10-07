@@ -1,8 +1,8 @@
 # Design Decisions
 
-## ApeX-InfraSense Engineering Design Decisions
+## ZSPARK-InfraSense Engineering Design Decisions
 
-This document explains why specific design choices were selected for the ApeX-InfraSense project.
+This document explains why specific design choices were selected for the ZSPARK-InfraSense project.
 
 The purpose is to provide technical justification for the architecture, components and implementation strategy.
 
