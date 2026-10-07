@@ -472,7 +472,7 @@ The dashboard displays:
 
 ---
 
-## SIH Evaluation Mapping
+## Evaluation Mapping
 
 | Evaluation Requirement | ApeX-InfraSense Evidence |
 |---|---|
