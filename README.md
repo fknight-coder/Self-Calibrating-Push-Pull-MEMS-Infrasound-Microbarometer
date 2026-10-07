@@ -1,8 +1,8 @@
-SIH26144-Team-ApeX
-# ApeX-InfraSense  
+SIH26144-Team-ZSPARK
+# ZSPARK-InfraSense  
 ## High-Sensitivity Differential Microbarometer for Infrasound Detection
 
-> **Smart India Hackathon Project — Team ApeX**  
+> **Smart India Hackathon Project — Team ZSPARK**  
 > A low-noise, STM32-based atmospheric microbarometer for detecting and analyzing infrasonic pressure fluctuations in the **0.01–20 Hz** frequency range.
 
 ![Project Status](https://img.shields.io/badge/Status-In%20Development-orange)
@@ -49,7 +49,7 @@ while reducing the effects of:
 
 ## Proposed Solution
 
-**ApeX-InfraSense** is a differential infrasound sensor platform built around:
+**ZSPARK-InfraSense** is a differential infrasound sensor platform built around:
 
 - A low-range differential MEMS pressure sensor or bellows-based transducer
 - Pneumatic long-period equalization using a backing chamber and capillary path
@@ -314,7 +314,7 @@ This can improve linearity, dynamic range, self-calibration capability, and heal
 ## Repository Structure
 
 ```text
-SIH26058-Team-ApeX/
+SIH26058-Team-ZSPARK/
 │
 ├── README.md
 ├── LICENSE
@@ -396,7 +396,7 @@ Speaker / Piston / Motorized Syringe
 Sealed Calibration Chamber
       │
       ├── Reference Pressure Sensor
-      └── ApeX-InfraSense Sensor Under Test
+      └── ZSPARK-InfraSense Sensor Under Test
 ```
 
 ### Frequency-response test points
@@ -474,7 +474,7 @@ The dashboard displays:
 
 ## Evaluation Mapping
 
-| Evaluation Requirement | ApeX-InfraSense Evidence |
+| Evaluation Requirement | ZSPARK-InfraSense Evidence |
 |---|---|
 | Detection of low-frequency signals | Live waveform from 0.01–20 Hz calibration source |
 | Laboratory frequency characterization | Bode magnitude and phase-response plots |
@@ -559,4 +559,4 @@ For open-hardware files such as PCB, schematics and mechanical designs, the proj
 ---
 
 
-> **ApeX-InfraSense aims to transform a low-cost microbarometer into an intelligent, self-validating, field-deployable infrasound sensing platform for atmospheric research, disaster monitoring, industrial safety and long-range event detection.**
+> **ZSPARK-InfraSense aims to transform a low-cost microbarometer into an intelligent, self-validating, field-deployable infrasound sensing platform for atmospheric research, disaster monitoring, industrial safety and long-range event detection.**
