@@ -1,6 +1,6 @@
 # Firmware
 
-## ApeX-InfraSense STM32 Firmware
+## ZSPARK-InfraSense STM32 Firmware
 
 This folder contains firmware for the STM32H743-based acquisition and control system.
 
@@ -88,7 +88,7 @@ firmware/
 ├── README.md
 │
 ├── stm32h743/
-│   ├── ApeX_InfraSense.ioc
+│   ├── ZSPARK_InfraSense.ioc
 │   ├── Core/
 │   │   ├── Inc/
 │   │   └── Src/
@@ -329,7 +329,7 @@ ADS131M04EVM or custom ADC board
 
 ```text
 1. Clone repository.
-2. Open firmware/stm32h743/ApeX_InfraSense.ioc in STM32CubeIDE.
+2. Open firmware/stm32h743/ZSPARK_InfraSense.ioc in STM32CubeIDE.
 3. Confirm target board/MCU.
 4. Generate CubeMX code if configuration changed.
 5. Build project.
