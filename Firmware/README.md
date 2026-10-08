@@ -78,56 +78,6 @@ Accelerometer: ADXL355
 Storage: microSD card
 ```
 
----
-
-# 4. Firmware Folder Structure
-
-```text
-firmware/
-│
-├── README.md
-│
-├── stm32h743/
-│   ├── ZSPARK_InfraSense.ioc
-│   ├── Core/
-│   │   ├── Inc/
-│   │   └── Src/
-│   │
-│   ├── Drivers/
-│   ├── Middlewares/
-│   │
-│   ├── App/
-│   │   ├── adc_acquisition/
-│   │   ├── calibration/
-│   │   ├── communications/
-│   │   ├── dsp/
-│   │   ├── environmental_sensors/
-│   │   ├── event_detection/
-│   │   ├── force_feedback/
-│   │   ├── gps_timing/
-│   │   ├── sd_logging/
-│   │   └── system_health/
-│   │
-│   ├── Config/
-│   └── tests/
-│
-├── libraries/
-│   ├── ads131m04_driver/
-│   ├── tmp117_driver/
-│   ├── sht45_driver/
-│   ├── bmp390_driver/
-│   ├── adxl355_driver/
-│   ├── gps_driver/
-│   └── ds3231_driver/
-│
-└── tools/
-    ├── flash_firmware.sh
-    ├── serial_debug.py
-    └── decode_packet.py
-```
-
----
-
 # 5. Peripheral Configuration
 
 | Peripheral | Purpose |
